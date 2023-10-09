@@ -163,7 +163,7 @@ let doubleRender = (itemsElemnt) => {
       }
       changeWinAmout();
       isInProcess = false;
-      if (winAmout > 30) {
+      if (winAmout > 3000) {
         modal.classList.add("modal_activ");
         modalText.innerHTML = winAmout;
       }
